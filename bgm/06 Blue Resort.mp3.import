@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxponuh2pjvrl"
+path="res://.godot/imported/06 Blue Resort.mp3-3270d3a2de2d17b6b0e44dfd9484b431.mp3str"
+
+[deps]
+
+source_file="res://bgm/06 Blue Resort.mp3"
+dest_files=["res://.godot/imported/06 Blue Resort.mp3-3270d3a2de2d17b6b0e44dfd9484b431.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

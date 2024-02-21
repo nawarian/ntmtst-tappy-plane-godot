@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvoik7eo5sgge"
+path="res://.godot/imported/01 Advertise.mp3-0ce240214e4b29553c9b6d29e7896608.mp3str"
+
+[deps]
+
+source_file="res://bgm/01 Advertise.mp3"
+dest_files=["res://.godot/imported/01 Advertise.mp3-0ce240214e4b29553c9b6d29e7896608.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b26ciea5mbwad"
+path="res://.godot/imported/04 Stage Intro.mp3-6e470d240ec0ba0aa62a9ec9f12e3f31.mp3str"
+
+[deps]
+
+source_file="res://bgm/04 Stage Intro.mp3"
+dest_files=["res://.godot/imported/04 Stage Intro.mp3-6e470d240ec0ba0aa62a9ec9f12e3f31.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

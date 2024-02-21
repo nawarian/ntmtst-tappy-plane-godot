@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cj0rd8en8a15f"
+path="res://.godot/imported/19 Altaile I.mp3-c70c3836d9cddc9c29be33a7533cc2d4.mp3str"
+
+[deps]
+
+source_file="res://bgm/19 Altaile I.mp3"
+dest_files=["res://.godot/imported/19 Altaile I.mp3-c70c3836d9cddc9c29be33a7533cc2d4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

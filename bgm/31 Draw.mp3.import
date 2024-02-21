@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c52dg7lkk8q4e"
+path="res://.godot/imported/31 Draw.mp3-4c28c62f108542c90cd234c3f11487d3.mp3str"
+
+[deps]
+
+source_file="res://bgm/31 Draw.mp3"
+dest_files=["res://.godot/imported/31 Draw.mp3-4c28c62f108542c90cd234c3f11487d3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

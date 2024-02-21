@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ecaw0405ykt"
+path="res://.godot/imported/23 Sirius III.mp3-fd750721b8ac522e1801afe97f0eedc2.mp3str"
+
+[deps]
+
+source_file="res://bgm/23 Sirius III.mp3"
+dest_files=["res://.godot/imported/23 Sirius III.mp3-fd750721b8ac522e1801afe97f0eedc2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ckgq56xb4xyet"
+path="res://.godot/imported/10 Rainbow Palace.mp3-bc7864a3a2517afa07ffcdbd36b8d855.mp3str"
+
+[deps]
+
+source_file="res://bgm/10 Rainbow Palace.mp3"
+dest_files=["res://.godot/imported/10 Rainbow Palace.mp3-bc7864a3a2517afa07ffcdbd36b8d855.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

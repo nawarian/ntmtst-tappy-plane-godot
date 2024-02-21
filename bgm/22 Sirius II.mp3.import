@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://hrlmew6oo5gh"
+path="res://.godot/imported/22 Sirius II.mp3-abdf97a69c47d2ebc698b6a63451e70e.mp3str"
+
+[deps]
+
+source_file="res://bgm/22 Sirius II.mp3"
+dest_files=["res://.godot/imported/22 Sirius II.mp3-abdf97a69c47d2ebc698b6a63451e70e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

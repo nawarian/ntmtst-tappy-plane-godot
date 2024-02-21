@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dcweg16a7sa6l"
+path="res://.godot/imported/11 Continue.mp3-be1796208be5b1169f89e75f3e8cd35d.mp3str"
+
+[deps]
+
+source_file="res://bgm/11 Continue.mp3"
+dest_files=["res://.godot/imported/11 Continue.mp3-be1796208be5b1169f89e75f3e8cd35d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbfbey708xkjs"
+path="res://.godot/imported/29 Hurry.mp3-0f5ebbeb157b30f1f729e38c37226c98.mp3str"
+
+[deps]
+
+source_file="res://bgm/29 Hurry.mp3"
+dest_files=["res://.godot/imported/29 Hurry.mp3-0f5ebbeb157b30f1f729e38c37226c98.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

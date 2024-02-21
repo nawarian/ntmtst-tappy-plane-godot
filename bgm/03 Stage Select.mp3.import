@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ccqawoa6rb7dt"
+path="res://.godot/imported/03 Stage Select.mp3-57ea877142d41d6c950d1859a9e7bf6d.mp3str"
+
+[deps]
+
+source_file="res://bgm/03 Stage Select.mp3"
+dest_files=["res://.godot/imported/03 Stage Select.mp3-57ea877142d41d6c950d1859a9e7bf6d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

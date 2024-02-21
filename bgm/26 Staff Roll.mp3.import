@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://fsce166gg5x0"
+path="res://.godot/imported/26 Staff Roll.mp3-c27d66c54f3d094871a24a7723e77c88.mp3str"
+
+[deps]
+
+source_file="res://bgm/26 Staff Roll.mp3"
+dest_files=["res://.godot/imported/26 Staff Roll.mp3-c27d66c54f3d094871a24a7723e77c88.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

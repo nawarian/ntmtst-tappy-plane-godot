@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkv4s4mi0vjws"
+path="res://.godot/imported/05 Green Garden.mp3-d411003ac3398f231ad3b5e76fc97b1d.mp3str"
+
+[deps]
+
+source_file="res://bgm/05 Green Garden.mp3"
+dest_files=["res://.godot/imported/05 Green Garden.mp3-d411003ac3398f231ad3b5e76fc97b1d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

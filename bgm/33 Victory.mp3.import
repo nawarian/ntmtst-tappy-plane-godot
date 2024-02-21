@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crfqy5w7knsbq"
+path="res://.godot/imported/33 Victory.mp3-d278c10b0e7e469385200d1534bdb800.mp3str"
+
+[deps]
+
+source_file="res://bgm/33 Victory.mp3"
+dest_files=["res://.godot/imported/33 Victory.mp3-d278c10b0e7e469385200d1534bdb800.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
