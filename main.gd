@@ -17,6 +17,7 @@ var PIPE_RANGE: int = 200
 func _ready():
 	screen_size = get_window().size
 	ground_height = $Ground.get_node("Sprite2D").texture.get_height()
+	$UI/BlinkingCursor.play()
 	new_game()
 
 func new_game():
@@ -30,6 +31,8 @@ func new_game():
 	$Plane.reset()
 	$ScoreLabel.set_text("Score: " + str(score))
 	$GameOver.hide()
+	$InitialBGM.play(0)
+	$GameOverBGM.stop()
 
 func _input(event):
 	if game_over == false:
@@ -37,6 +40,7 @@ func _input(event):
 			if event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 				if game_running == false:
 					start_game()
+					$TapSFX.play(0)
 				else:
 					if $Plane.flying:
 						$Plane.flap()
@@ -47,6 +51,10 @@ func start_game():
 	$Plane.flying = true
 	$Plane.flap()
 	$RockTimer.start()
+	$InitialBGM.stop()
+	$GameOverBGM.stop()
+	$GameplayBGM.play()
+	$UI.hide()
 
 func stop_game():
 	game_running = false
@@ -54,6 +62,8 @@ func stop_game():
 	$Plane.flying = false
 	$RockTimer.stop()
 	$GameOver.show()
+	$GameplayBGM.stop()
+	$GameOverBGM.play()
 
 func _process(delta):
 	if game_running:
@@ -97,4 +107,5 @@ func _on_ground_hit():
 	stop_game()
 
 func _on_game_over_restart():
+	$TapSFX.play()
 	new_game()

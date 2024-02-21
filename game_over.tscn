@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://8k66oe85d4ae"]
+[gd_scene load_steps=7 format=3 uid="uid://8k66oe85d4ae"]
 
 [ext_resource type="Texture2D" uid="uid://bm78btgkrl31x" path="res://images/PNG/UI/buttonLarge.png" id="1_bx810"]
 [ext_resource type="Script" path="res://game_over.gd" id="1_nctvv"]
+[ext_resource type="Texture2D" uid="uid://iyb8we0k0v6d" path="res://images/PNG/UI/textGameOver.png" id="3_qc1op"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qssdq"]
 texture = ExtResource("1_bx810")
@@ -32,5 +33,10 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_qssdq")
 theme_override_styles/hover = SubResource("StyleBoxTexture_j3436")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_c10v0")
 text = "Restart"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(188, 317)
+scale = Vector2(0.807692, 0.807692)
+texture = ExtResource("3_qc1op")
 
 [connection signal="pressed" from="RestartButton" to="." method="_on_restart_button_pressed"]
