@@ -93,7 +93,7 @@ texture = ExtResource("12_v5pos")
 position = Vector2(230, 439)
 scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_pni20")
-frame_progress = 0.610591
+frame_progress = 0.540866
 
 [connection signal="hit" from="Ground" to="." method="_on_ground_hit"]
 [connection signal="timeout" from="RockTimer" to="." method="_on_rock_timer_timeout"]
