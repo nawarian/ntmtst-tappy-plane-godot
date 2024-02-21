@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=3 uid="uid://dhfjufv40ovfi"]
+
+[ext_resource type="Texture2D" uid="uid://qio6qlych6co" path="res://images/PNG/rockGrass.png" id="1_eqd0g"]
+[ext_resource type="Script" path="res://rock.gd" id="1_k32yh"]
+[ext_resource type="Texture2D" uid="uid://8mr3yaqewcuj" path="res://images/PNG/rockGrassDown.png" id="2_g7yra"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_si0yx"]
+size = Vector2(56.5, 143)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1kgct"]
+size = Vector2(86, 102.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kub52"]
+size = Vector2(46.5, 122)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3kbh2"]
+size = Vector2(83, 114)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w4adk"]
+size = Vector2(40.5, 690)
+
+[node name="Rock" type="Area2D" groups=["rocks"]]
+script = ExtResource("1_k32yh")
+
+[node name="Lower" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_eqd0g")
+offset = Vector2(0, 200)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(7, -389)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_si0yx")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(7, -533.25)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_1kgct")
+
+[node name="Upper" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("2_g7yra")
+offset = Vector2(0, -200)
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(17, 319)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_kub52")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(9, 510)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_3kbh2")
+
+[node name="ScoreArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ScoreArea"]
+position = Vector2(133, -53)
+shape = SubResource("RectangleShape2D_w4adk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_entered" from="ScoreArea" to="." method="_on_score_area_body_entered"]
