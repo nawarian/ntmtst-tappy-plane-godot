@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c01yx8jxkr8yt"
+path="res://.godot/imported/17 Boss Battle.mp3-b03c5f66cdbeff1ed867287324183049.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/17 Boss Battle.mp3"
+dest_files=["res://.godot/imported/17 Boss Battle.mp3-b03c5f66cdbeff1ed867287324183049.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -6,10 +6,10 @@
 [ext_resource type="PackedScene" uid="uid://ccnppjyfbv02y" path="res://plane.tscn" id="2_vhqtf"]
 [ext_resource type="PackedScene" uid="uid://svigufxmc6cv" path="res://ground.tscn" id="4_cjlfp"]
 [ext_resource type="PackedScene" uid="uid://8k66oe85d4ae" path="res://game_over.tscn" id="6_4pj83"]
-[ext_resource type="AudioStream" uid="uid://bpr1m0dqtkml0" path="res://bgm/94 Drums.mp3" id="7_xde36"]
-[ext_resource type="AudioStream" uid="uid://boywojjx3nggq" path="res://sfx/BUBBLE_OPEN.wav" id="8_m3em0"]
-[ext_resource type="AudioStream" uid="uid://ecaw0405ykt" path="res://bgm/23 Sirius III.mp3" id="9_gtcc2"]
-[ext_resource type="AudioStream" uid="uid://dcweg16a7sa6l" path="res://bgm/11 Continue.mp3" id="10_324sn"]
+[ext_resource type="AudioStream" uid="uid://cuux3h6rxcsex" path="res://bgm/optimised/94 Drums.mp3" id="7_xi1c3"]
+[ext_resource type="AudioStream" uid="uid://cw3mejy62kx2j" path="res://sfx/optimised/BUBBLE_OPEN.mp3" id="8_6pqcx"]
+[ext_resource type="AudioStream" uid="uid://c418p422ccao5" path="res://bgm/optimised/23 Sirius III.mp3" id="9_ofjjb"]
+[ext_resource type="AudioStream" uid="uid://b75k5gbj1qvdk" path="res://bgm/optimised/11 Continue.mp3" id="10_weik0"]
 [ext_resource type="Texture2D" uid="uid://8d3dsjvfdf6l" path="res://images/PNG/UI/textGetReady.png" id="11_xwiyq"]
 [ext_resource type="Texture2D" uid="uid://kb3cvygg7k7u" path="res://images/PNG/UI/tap.png" id="12_ctiq3"]
 [ext_resource type="Texture2D" uid="uid://blhpn0dxs6ijc" path="res://images/PNG/UI/tapRight.png" id="12_v5pos"]
@@ -65,20 +65,19 @@ text = "Score: 0"
 visible = false
 
 [node name="InitialBGM" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("7_xde36")
+stream = ExtResource("7_xi1c3")
 
 [node name="TapSFX" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("8_m3em0")
+stream = ExtResource("8_6pqcx")
 
 [node name="GameplayBGM" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("9_gtcc2")
+stream = ExtResource("9_ofjjb")
 
 [node name="GameOverBGM" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("10_324sn")
+stream = ExtResource("10_weik0")
 
 [node name="UI" type="Node2D" parent="."]
 position = Vector2(1.52588e-05, 0)
-scale = Vector2(1, 1)
 
 [node name="GetReadyText" type="Sprite2D" parent="UI"]
 position = Vector2(188, 325)
@@ -91,7 +90,6 @@ texture = ExtResource("12_v5pos")
 
 [node name="BlinkingCursor" type="AnimatedSprite2D" parent="UI"]
 position = Vector2(230, 439)
-scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_pni20")
 frame_progress = 0.540866
 

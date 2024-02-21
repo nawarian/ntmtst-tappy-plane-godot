@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwmnife2om0ew"
+path="res://.godot/imported/20 Altaile II.mp3-6a5066d0d5645eee04088f532719da87.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/20 Altaile II.mp3"
+dest_files=["res://.godot/imported/20 Altaile II.mp3-6a5066d0d5645eee04088f532719da87.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

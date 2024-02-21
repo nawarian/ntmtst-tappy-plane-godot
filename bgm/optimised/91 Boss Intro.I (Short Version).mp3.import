@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://57ljll2lli4x"
+path="res://.godot/imported/91 Boss Intro.I (Short Version).mp3-f5ac29d24860f17cb5646f6d19f77617.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/91 Boss Intro.I (Short Version).mp3"
+dest_files=["res://.godot/imported/91 Boss Intro.I (Short Version).mp3-f5ac29d24860f17cb5646f6d19f77617.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbg7mv7o7h7qs"
+path="res://.godot/imported/30 Winner.mp3-d29b8c71deb8161879bee621f01623ff.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/30 Winner.mp3"
+dest_files=["res://.godot/imported/30 Winner.mp3-d29b8c71deb8161879bee621f01623ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkhrj8akmra3i"
+path="res://.godot/imported/02 Opening.mp3-fccab8c535bdf3f3e16983ae0b98574f.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/02 Opening.mp3"
+dest_files=["res://.godot/imported/02 Opening.mp3-fccab8c535bdf3f3e16983ae0b98574f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

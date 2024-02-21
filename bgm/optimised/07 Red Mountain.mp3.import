@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cksljsss72g7q"
+path="res://.godot/imported/07 Red Mountain.mp3-fbe2ccc1c25f8a310b1f3cf91115fd9d.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/07 Red Mountain.mp3"
+dest_files=["res://.godot/imported/07 Red Mountain.mp3-fbe2ccc1c25f8a310b1f3cf91115fd9d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

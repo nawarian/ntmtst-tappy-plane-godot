@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdxlmb7ru6d0r"
+path="res://.godot/imported/27 Battle Select.mp3-51a2bdc2720cd7c32a665ad468774dd8.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/27 Battle Select.mp3"
+dest_files=["res://.godot/imported/27 Battle Select.mp3-51a2bdc2720cd7c32a665ad468774dd8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

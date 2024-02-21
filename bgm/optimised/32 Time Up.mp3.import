@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dus8sb52bxei4"
+path="res://.godot/imported/32 Time Up.mp3-f69ee6cead9d5f47d94bd21e45cf320d.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/32 Time Up.mp3"
+dest_files=["res://.godot/imported/32 Time Up.mp3-f69ee6cead9d5f47d94bd21e45cf320d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

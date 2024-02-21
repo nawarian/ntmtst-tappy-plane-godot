@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfnidvty800ed"
+path="res://.godot/imported/25 Fanfare.mp3-b8449f8f6a7469fc2cc06334b14d0afc.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/25 Fanfare.mp3"
+dest_files=["res://.godot/imported/25 Fanfare.mp3-b8449f8f6a7469fc2cc06334b14d0afc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

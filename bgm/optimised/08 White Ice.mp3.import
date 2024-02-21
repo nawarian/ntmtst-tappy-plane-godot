@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://4wqb4ec72voo"
+path="res://.godot/imported/08 White Ice.mp3-3e7f80a6d014588ba37da3a658c50af2.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/08 White Ice.mp3"
+dest_files=["res://.godot/imported/08 White Ice.mp3-3e7f80a6d014588ba37da3a658c50af2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

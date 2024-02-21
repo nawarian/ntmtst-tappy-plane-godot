@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d170kf7jsqwgo"
+path="res://.godot/imported/14 Masker.mp3-0833d924a7cca7b74c039700b3091e4f.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/14 Masker.mp3"
+dest_files=["res://.godot/imported/14 Masker.mp3-0833d924a7cca7b74c039700b3091e4f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

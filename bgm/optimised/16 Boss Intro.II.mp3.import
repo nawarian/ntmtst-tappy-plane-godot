@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cb3nk1y8jft4e"
+path="res://.godot/imported/16 Boss Intro.II.mp3-a532af52359c50ba04851243c1645f3a.mp3str"
+
+[deps]
+
+source_file="res://bgm/optimised/16 Boss Intro.II.mp3"
+dest_files=["res://.godot/imported/16 Boss Intro.II.mp3-a532af52359c50ba04851243c1645f3a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
